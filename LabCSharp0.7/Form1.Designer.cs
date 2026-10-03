@@ -49,7 +49,7 @@
             // 
             this.bold.Location = new System.Drawing.Point(500, 87);
             this.bold.Name = "bold";
-            this.bold.Size = new System.Drawing.Size(75, 23);
+            this.bold.Size = new System.Drawing.Size(80, 41);
             this.bold.TabIndex = 1;
             this.bold.Text = "Bold";
             this.bold.UseVisualStyleBackColor = true;
@@ -58,7 +58,7 @@
             // 
             this.italic.Location = new System.Drawing.Point(500, 164);
             this.italic.Name = "italic";
-            this.italic.Size = new System.Drawing.Size(75, 23);
+            this.italic.Size = new System.Drawing.Size(80, 38);
             this.italic.TabIndex = 2;
             this.italic.Text = "Italic";
             this.italic.UseVisualStyleBackColor = true;
@@ -71,6 +71,7 @@
             this.color.TabIndex = 3;
             this.color.Text = "Change to given color";
             this.color.UseVisualStyleBackColor = true;
+            this.color.Click += new System.EventHandler(this.color_Click);
             // 
             // colorInput
             // 

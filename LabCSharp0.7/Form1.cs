@@ -15,5 +15,27 @@ namespace LabCSharp0._7
         {
             InitializeComponent();
         }
+
+        // Get the color from the input and change 
+        private void color_Click(object sender, EventArgs e)
+        {
+            String colorName = colorInput.Text.ToLower();
+            
+            switch (colorName)
+            {
+                case "red":
+                    changeableText.ForeColor = Color.Red;
+                    break;
+                case "green":
+                    changeableText.ForeColor = Color.Green;
+                    break;
+                case "blue":
+                    changeableText.ForeColor = Color.Blue;
+                    break;
+                default:
+                    MessageBox.Show("Unknown color");
+                    break;
+            }
+        }
     }
 }
