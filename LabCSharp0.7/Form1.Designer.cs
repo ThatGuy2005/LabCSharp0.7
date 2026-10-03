@@ -53,6 +53,7 @@
             this.bold.TabIndex = 1;
             this.bold.Text = "Bold";
             this.bold.UseVisualStyleBackColor = true;
+            this.bold.Click += new System.EventHandler(this.bold_Click);
             // 
             // italic
             // 
@@ -62,6 +63,7 @@
             this.italic.TabIndex = 2;
             this.italic.Text = "Italic";
             this.italic.UseVisualStyleBackColor = true;
+            this.italic.Click += new System.EventHandler(this.italic_Click);
             // 
             // color
             // 
